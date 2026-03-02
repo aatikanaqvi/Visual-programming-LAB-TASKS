@@ -1,0 +1,129 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar-custom {
+    background-color: #4267B2;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.sidebar ul li {
+    margin-bottom: 12px;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.sidebar ul li:hover {
+    background-color: #e9ebee;
+    border-radius: 8px;
+    padding-left: 5px;
+}
+.sidebar ul li i {
+    margin-right: 8px;
+    color: #4267B2;
+}
+
+/* Stories */
+.story {
+    background-color: #dfe3ee;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 10px;
+    text-align: center;
+    min-width: 80px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.story:hover {
+    transform: scale(1.05);
+}
+.story img {
+    width: 70px;
+    height: 100px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* Post Card */
+.post-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.post-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Profile picture */
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+/* Post header */
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-info {
+    display: flex;
+    flex-direction: column;
+}
+.post-time {
+    font-size: 12px;
+    color: #65676b;
+}
+
+/* Interaction buttons */
+.post-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 8px;
+}
+.post-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #65676b;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: 0.2s;
+}
+.post-actions button:hover {
+    color: #4267B2;
+    font-weight: bold;
+}
+
+/* Suggestions */
+.suggestion i {
+    margin-right: 8px;
+    color: #4267B2;
+}
+.suggestion:hover {
+    background-color: #e9ebee;
+    border-radius: 8px;
+    padding-left: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Facebook Homepage</title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="fbhomepage.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom px-4">
+    <a class="navbar-brand" href="#">MyFacebook</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Messages</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-4">
+<div class="row">
+    <!-- Left Sidebar -->
+    <div class="col-lg-3">
+        <div class="sidebar">
+            <h5>Menu</h5>
+            <ul class="list-unstyled">
+                <li><i class="bi bi-people-fill"></i>Friends</li>
+                <li><i class="bi bi-people"></i>Groups</li>
+                <li><i class="bi bi-calendar-event"></i>Events</li>
+                <li><i class="bi bi-shop"></i>Marketplace</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Feed -->
+    <div class="col-lg-6">
+        <!-- Stories -->
+        <div class="d-flex mb-3 overflow-auto">
+            <div class="story">
+                <img src="https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2xvdWR5JTIwc2t5fGVufDB8fDB8fHww" alt="Sky Story">
+                <p>Sky View</p>
+            </div>
+            <div class="story">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/019/961/772/small/panoramic-view-of-passo-giau-in-the-dolomite-mountains-of-italy-photo.jpg" alt="Mountain Story">
+                <p>Mountains</p>
+            </div>
+            <div class="story">
+                <img src="https://media.istockphoto.com/id/1919393320/photo/the-eid-feast.jpg?s=612x612&w=0&k=20&c=c97PBDsO9Jtt1Q49PlgCx7HkEEsY7i4ccrREKZ5Ueok=" alt="Food Story">
+                <p>Food</p>
+            </div>
+        </div>
+
+        <!-- Post 1 -->
+        <div class="post-card">
+            <div class="post-header">
+                <div class="post-info">
+                    <div style="display:flex; align-items:center;">
+                        <img class="profile-pic" src="https://static-cse.canva.com/blob/2517928/1600w-B-cRyoh7b98.jpg" alt="Jane Doe">
+                        <strong>Jane Doe</strong>
+                    </div>
+                    <span class="post-time">2 hrs ago</span>
+                </div>
+                <i class="bi bi-three-dots"></i>
+            </div>
+            <p>Had a delicious Eid feast today!</p>
+            <img src="https://media.istockphoto.com/id/1919393320/photo/the-eid-feast.jpg?s=612x612&w=0&k=20&c=c97PBDsO9Jtt1Q49PlgCx7HkEEsY7i4ccrREKZ5Ueok=" alt="Food Post">
+            <div class="post-actions">
+                <button><i class="bi bi-hand-thumbs-up"></i>Like</button>
+                <button><i class="bi bi-chat"></i>Comment</button>
+                <button><i class="bi bi-share"></i>Share</button>
+            </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="post-card">
+            <div class="post-header">
+                <div class="post-info">
+                    <div style="display:flex; align-items:center;">
+                        <img class="profile-pic" src="https://static-cse.canva.com/blob/2517928/1600w-B-cRyoh7b98.jpg" alt="John Smith">
+                        <strong>John Smith</strong>
+                    </div>
+                    <span class="post-time">5 hrs ago</span>
+                </div>
+                <i class="bi bi-three-dots"></i>
+            </div>
+            <p>Check out this amazing mountain view!</p>
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/019/961/772/small/panoramic-view-of-passo-giau-in-the-dolomite-mountains-of-italy-photo.jpg" alt="Mountain Post">
+            <div class="post-actions">
+                <button><i class="bi bi-hand-thumbs-up"></i>Like</button>
+                <button><i class="bi bi-chat"></i>Comment</button>
+                <button><i class="bi bi-share"></i>Share</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div class="col-lg-3">
+        <div class="sidebar">
+            <h5>Suggestions</h5>
+            <ul class="list-unstyled">
+                <li class="suggestion"><i class="bi bi-person-fill"></i>Alice</li>
+                <li class="suggestion"><i class="bi bi-person-fill"></i>Bob</li>
+                <li class="suggestion"><i class="bi bi-person-fill"></i>Charlie</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
